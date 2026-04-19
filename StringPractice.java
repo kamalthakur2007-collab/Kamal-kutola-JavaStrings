@@ -1,0 +1,30 @@
+public class StringPractice {
+    public static void main(String[] args) {
+
+        // Declare strings
+        String str1 = "Hello";
+        String str2 = "World";
+
+        // 1. length()
+        System.out.println("Length of str1: " + str1.length());
+
+        // 2. concat()
+        String combined = str1.concat(" " + str2);
+        System.out.println("Concatenated string: " + combined);
+
+        // 3. toUpperCase()
+        System.out.println("Uppercase str1: " + str1.toUpperCase());
+
+        // 4. substring()
+        System.out.println("Substring of str2 (0 to 3): " + str2.substring(0, 3));
+
+        // 5. equals()
+        System.out.println("str1 equals str2? " + str1.equals(str2));
+
+        // 6. replace()
+        System.out.println("Replace 'l' with 'x' in str1: " + str1.replace('l', 'x'));
+
+        // 7. charAt()
+        System.out.println("Character at index 1 in str1: " + str1.charAt(1));
+    }
+}
